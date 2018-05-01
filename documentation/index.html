@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Mobile Shop Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/custom.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Mobile Shop&rdquo; Documentation by &ldquo;dmb TEAM&rdquo; v2.2</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Mobile Shop&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 05.03.2015<br>
+					Updated: 24.05.2016<br>
+					By: dmb TEAM<br>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing our android application. If you have any questions that are beyond the scope of this help file, please feel free to email us via the Contact Form <a target="_blank" href="http://codecanyon.net/user/dmbTeam">here</a>.</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<div style="background-color: #ffd0d0; padding: 10px; margin-bottom: 20px;">
+			<h2>Important</h2>
+			<strong>What stays behind Support:</strong>
+			<ul>
+				<li>Responding to questions or problems regarding the item and its features</li>
+				<li>Fixing bugs and reported issues</li>
+			</ul>
+			<strong>What is OUT of the Support scope:</strong>
+			<ul>
+				<li>Customization and installation services</li>
+				<li>Support for third party software and plug-ins</li>
+			</ul>
+		</div>
+		
+		<hr />
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		
+        <h3>I. Needed Tools</h3>
+		<ol>
+			<li><a href="#tools">What tools you need?</a>
+			</li>
+			<li><a href="#import">Import the project into Android Studio</a>
+			</li>
+		</ol>
+       
+		<h3>II. How to Customize "Mobile Shop with Push Notifications"?</h3>
+		<ol>
+			<li><a href="#products">Products, Categories, Subcategories, Slider Items</a></li>
+			<li><a href="#appsettings">Settings</a></li>
+			<li><a href="#externalxml">Using External .xml file - web hosted</a></li>
+			<li><a href="#launchericon">Customize the Launcher Icon (Application Icon)</a></li>
+			<li><a href="#push">Push Notifications</a></li>
+			<li><a href="#tutorials">Useful tutorials</a></li>
+			<li><a href="#faqs">FAQs</a></li>
+		</ol>
+		
+		<hr />
+		
+		<h3>I. How to configure/set up the project?</h3>
+		<h3 id="tools"><strong>1. What tools you need?</strong> - <a href="#toc">top</a></h3>
+		<p>
+			The product is created within Android Studio IDE. You can download it from here: <a href="http://developer.android.com/sdk/index.html" target="_blank">Download Android Studio.</a>. In addition, on this page you can find useful information how the IDE is working, features, system requirements, tutorials and so on.
+		</p>
+		
+		<hr />
+		
+		<h3 id="import"><strong>2. Import the project into Android Studio</strong> - <a href="#toc">top</a></h3>
+		<p><strong>Step 1:</strong> Extract the content from the .zip file that you've just downloaded from CodeCanyon. Then start <strong>Android Studio</strong> and when you see the <strong>Welcome to Android Studio screen</strong> click on <strong>Open an existing Android Studio project</strong>
+		</p>
+		<p><img src="assets/images/import-1.jpg">
+		</p>
+		
+		<p><strong>Step 2:</strong> After that you will get a pop-up and you should locate where you extracted the .zip file. Select the root directory:</p>
+		<p><img src="assets/images/import-2.png"></p>
+		
+		<p><strong>Step 3:</strong> When you click the OK button, Android Studio will display its home screen. There, you have to synch the project with Gradle. To do so, click on <strong>Tools -> Android -> Sync Project with Gradle Files</strong>. Of course, if you don't have Gradle on your machine, you have to install it from <a href="https://www.gradle.org/downloads" target="_blank">here</a>.</p>
+		<p><img src="assets/images/import-3.png"></p>
+		
+		<p><strong>Step 4:</strong> After <strong>Step 3</strong>, you have to see on the left side Project explorer the project's files (use the Android view) -- <strong>catalogApp</strong> item is the main project, while the other two are libraries.</p>
+		<p><img width="800" src="assets/images/import-4.png"></p>
+		
+		<p><strong>Step 5:</strong> We can perform quick test, if everything is ok by selecting the <strong>catalogApp</strong> item (folder) on the left and clicking the green <strong>Run</strong> button (top navigation toolbar). This way we will launch the app on a Emulator or real device, if you have connected it to your machine. Currently we don't have real device connected (as we can see from the dialog), so we will run it on a <strong>Emulator Nexus 5 API 21 x86</strong>. Plus, this will proove that the source files are successfully compiled and there are no errors within the project.</p>
+		<p><img width="800" src="assets/images/import-5.png"></p>
+		
+		<hr />
+		
+		<h3>II. How to Customize "Mobile Shop with Push Notifications"?</h3>
+		<h3 id="products"><strong>1. Products, Categories, Subcategories, Slider Items</strong> - <a href="#toc">top</a></h3>
+		<p>
+			Basically all of the data (products, categories, subcategories and slider items) is stored within a simple .xml file with a 
+			specific structure. If you want to add and/or remove products, categories and/or subcategories and to change the products within
+			the featured slider you can do it via editing that simple .xml file. Originally it is located here: <strong><em>catalogApp/assets/catalog.xml</em></strong>.
+		</p>
+		<p>
+			<img src="assets/images/xml-location.png">
+		</p>
+		<div>
+			The .xml file contains 3 main sections, as follows:
+			<p>a) &lt;categories&gt; ... &lt;/categories&gt;</p>
+			<p>
+				- It contains all of your categories and subcategories. Each <strong>parent</strong> category is represented by <br> 
+				&lt;category id&#61;&quot;100&quot;&gt; &lt;title&gt; CATEGORY NAME  &lt;/title&gt; &lt;/category&gt; <br>
+				<span style="color: red;"> Please note that the ID must be unique amomng all other categories (subcategories)!</span><br><br>
+				Each parent category can contain subcategories and you can create them as follows:<br>
+				&lt;category id&#61;&quot;101&quot; parentId&#61;&quot;100&quot;&gt; &lt;title&gt; SUBCATEGORY NAME  &lt;/title&gt; &lt;/category&gt;<br>
+				<span style="color: red;"> Please note that the ID must be unique amomng all other categories (subcategories) and you must add second attribute <strong>parentId&#61;&quot;100&quot;</strong>, which makes the current item, a subcategory of the matched by ID parent category. In our case it will be SUBCATEGORY fo CATEGORY with ID 100!</span><br><br>
+			</p>
+			<p>Check the picture below for better understanding! There we have created TWO parent categories (1st: Notebooks, 2nd: Smartphones &amp; Tablets) and we've attached FOUR subcategories to Notebooks (e.g. Acer, Asus, Lenovo and Toshiba). Plus, we've created TWO subcategories of Smartphones &amp; Tablets (e.g. Smartphones, Tablets. Simply said, that's the way you have to organize your categories.</p>
+			<p>
+				<span style="color: red">Please note that you can create only one level of hierarchy (e.g. CATEGORY - SUBCATEGORY)!</span>
+			</p>
+			<p>
+				<img src="assets/images/xml-categories.png">
+			</p>
+			<p>b) &lt;slider&gt; ... &lt;/slider&gt;</p>
+			<div>
+				- It contains all of the products that you want to be part of the <strong>FEATURED SLIDER</strong> at the top of the home screen. Each product is represented by <strong>&lt;product&gt; ... &lt;/product&gt;</strong> and contains 6 sub elements:
+				<ul>
+					<li><strong>&lt;date&gt;</strong> - publish date;</li>
+					<li><strong>&lt;title&gt;</strong> - the name of the product;</li>
+					<li><strong>&lt;photos&gt;</strong> - this element contains list of the photos that you want to have for the product. Just add <strong>&lt;photo&gt;</strong> <em>path or url to the image</em> <strong>&lt;/photo&gt;</strong> and put the name of the image file that you want to be used. Make sure to skip the file extension (e.g. .png) if you are using the local .xml. If you are using external .xml, there the file extension must be added. Always use optimized .png files;</li>
+					
+					<p>Example: </p>
+					<p>
+						<img src="assets/images/photos.png" />
+					</p>
+					
+					<li><strong>&lt;description&gt;</strong> - short description of the product;</li>
+					<li><strong>&lt;condition&gt;</strong> - new or used;</li>
+					<li><strong>&lt;color&gt;</strong> - mention the color of the product.</li>
+				</ul>
+				All of those sub elements are <span style="color: red;">mandatory</span> and they must be closed with the related closing tag, e.g. &lt;/date&gt;, &lt;.title&gt;, &lt;/photo&gt;, &lt;/description&gt;, &lt;/condition&gt;, &lt;/color&gt;. You put the value between the opening and the closing tags.<br><br>
+			
+				As you can see from the picture below each product has <strong>THREE</strong> required attributes: 
+				<ul>
+					<li><strong>id&#61;&quot;1&quot;</strong> - must be unique among all items;</li>
+					<li><strong>category&#61;&quot;202&quot;</strong> - connect the product to a specific category using the category ID;</li>
+					<li><strong>price&#61;&quot;1000&quot;</strong> - the price of the product.</li>
+				</ul>
+			</div>
+			<p>
+				See the image below for better understanding:
+			</p>
+			<p>
+				<img src="assets/images/xml-slider.png">
+			</p>
+			<p>c) &lt;product&gt; ... &lt;/product&gt;</p>
+			<p>
+				- Products that are not part of the <strong>FEATURED SLIDER</strong> have to be placed within the <strong>&lt;products&gt; &lt;/products&gt;</strong> tags. Each product is represented by <strong>&lt;product&gt; ... &lt;/product&gt;</strong> tags and it contains <strong>6 sub elements</strong>. Check <strong>point b&#41; (above)</strong> to see how to build a product.
+			</p>
+			<p>
+				Here is a image showing a set of products:
+			</p>
+			<p>
+				<img src="assets/images/xml-products.png">
+			</p>	
+		</div>	
+		
+		<hr>
+		
+		<h3 id="appsettings"><strong>2. Settings</strong> - <a href="#toc">top</a></h3>
+		<p>
+            Generaly most of the settings are located within <strong><em>AppSettings.java</em></strong> class (file). All of the settings are explained in details with comments and you can easily get the idea.
+		</p>
+		<div>
+			Here are all of them:
+			<ul>
+				<li><strong>public static final APP_THEMES CURRENT_THEME = ThemeGreen;</strong> - with this setting you can control the theme of the app. You can choose between 7 built-in themes: ThemeGreen, ThemeBlue, ThemeOrange, ThemePurple, ThemeDarkBlue, ThemeNeutral, ThemePink. Just replace the value (e.g. ThemeGreen) with the desired theme value and you are done;</li>
+				<li><strong>public static final String CURRENCY = "$";</strong> - the currency sign or code;</li>
+				<li><strong>public static final double VAT = 0.2;</strong> - the VAT percentage;</li>
+				<li><strong>public static final boolean useCommaForPrices = false;</strong> - control the price format. If set to <strong>false</strong> the prices will be displayed with dot format (e.g. 1000<strong style="color: red;">.</strong>0 ). If set to <strong>true</strong>, the prices will be displayed with comma format (e.g. 1000<strong style="color: red;">,</strong>00. <span style="color: red;">Please note that within the XML file you MUST write the prices with dot format and they will be transformed into comma format, if this constant is set to <strong>true</strong>;</span></li>
+				
+				<li><strong>public static final String XMLResourcePath = "catalog.xml";</strong> - location of the .xml file, where all of the data is stored. By default it uses the local .xml file within the <em>assets</em>folder. Of course you can use externl (web hosted) .xml file and here you can set up the path to it (e.g. http://dmb-team.com/apps/catalog/catalog_web.xml);</li>
+				<li><strong>public static final String CATALOG_NAME = "Mobile Shop";</strong> - name used within the Left Sliding Menu;</li>
+				<li><strong>public static final String MAIL = "support@dmb-team.com";</strong> - email address;</li>
+				<li><strong>public static final String PHONE = "555-555-33";</strong> - phone number;</li>
+				<li><strong>public static final String SKYPE = "dmb.catalog";</strong> - skype account;</li>
+				<li><strong>public static final String FACEBOOK = "facebook.com/catalog";</strong> - Facebook page.</li>
+			</ul>
+		</div>
+		<p>Here is the file:</p>
+		<p>
+			<img src="assets/images/appsettings.png">
+		</p>
+		
+		<hr>
+		
+		<h3 id="externalxml"><strong>3. Using External .xml file - web hosted</strong> - <a href="#toc">top</a></h3>
+		
+		<p>Iif you want to use external (web hosted) .xml file, just open the <strong>AppSettings.java</strong> class (file) and look for the <strong>public static final String XMLResourcePath = "catalog.xml";</strong>. Here you just have to replace the <em>catalog.xml</em> value with the url address of the web hosted .xml (e.g. http://mydomain.com/catalog.xml).</p>
+		
+		<hr>
+		
+		<h3 id="launchericon"><strong>4. Customize the Launcher Icon (Application Icon)</strong> - <a href="#toc">top</a></h3>
+		<p>
+			You just need to replace the following image <em>res/drawable-xxxhdpi/ic_launcer.png</em> with yours. Please make sure to create an image with the same image size (width and height).
+		</p>
+		
+        <hr>
+        
+        <h3 id="push"><strong>5. Push Notifications</strong> - <a href="#toc">top</a></h3>
+		<p>The app is integrated with OneSignal service when it comes to Push Notifications. This way, you will be able to send over targeted notifications to your users that have installed the app. The process is not that simple, that's why we've prepared a video tutorial - we believe this is the best way to get it right and quick.</p>
+        <p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/eOEqDi-fucs?rel=0" frameborder="0" allowfullscreen=""></iframe>
+        </p>
+        <p>
+            <a href="https://youtu.be/eOEqDi-fucs" class="btn btn-green" target="_blank">Open in Youtube</a>
+            <a href="https://documentation.onesignal.com/docs/android-generating-a-gcm-push-notification-key" class="btn btn-grey" target="_blank">OneSignal Documentation</a>
+        </p>
+		
+        <hr>
+
+		<h3 id="tutorials"><strong>6. Useful tutorials</strong> - <a href="#toc">top</a></h3>
+		<p>			
+			<strong>6.1</strong> <a href="http://stackoverflow.com/questions/16804093/android-studio-rename-package/29092698#29092698" target="_blank">How can I change the package name?</a> <br>
+			<strong>6.2</strong> <a href="http://developer.android.com/tools/publishing/app-signing.html" target="_blank">How to export certified apk file for Google Play Store</a> <br>
+			<strong>6.3</strong> <a href="http://developer.android.com/distribute/tools/launch-checklist.html" target="_blank">Launch Checklist for Google Play Store</a> <br>
+			<strong>6.4</strong> <a href="http://www.tutorialspoint.com/android/android_publishing_application.htm" target="_blank">Publishing Android Application</a>
+			
+		</p>
+        
+        <hr>
+		
+		<h3 id="faqs"><strong>7. FAQs</strong> - <a href="#toc">top</a></h3>
+		<p>You can always check the product's Support Tab section (at CodeCanyon.net), where you can find a lot of already answered questions and solved issues. Plus, you can benefit from the Comments section (at CodeCanyon.net), where we've replied to a lot of questions too.</p>
+
+		<hr>
+		
+		<p class="append-bottom alt large"><strong>"Mobile Shop" by dmb TEAM</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

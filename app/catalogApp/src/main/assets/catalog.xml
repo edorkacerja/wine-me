@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalog>
+
+    <categories>
+        <!-- start Wines Category -->
+        <category id="100">
+            <title>Red Wine</title>
+        </category>
+        <!-- Subcategories of Red Wines -->
+        <category id="101" parentId="100">
+            <title>Cabernet Sauvignon</title>
+        </category>
+
+        <category id="102" parentId="100">
+            <title>Pinot Noir</title>
+        </category>
+
+        <category id="103" parentId="100">
+            <title>Syrah</title>
+        </category>
+
+        <category id="104" parentId="100">
+            <title>Zinfandel</title>
+        </category>
+
+        <!-- end Red Wines Category -->
+
+        <!-- start White Wines Category -->
+        <category id="200">
+            <title>White Wine</title>
+        </category>
+        <!-- Subcategories of White Wines -->
+        <category id="201" parentId="200">
+            <title>Chardonnay</title>
+        </category>
+        <category id="202" parentId="200">
+            <title>Pinot Grigio</title>
+        </category>
+        <category id="203" parentId="200">
+            <title>Riesling</title>
+        </category>
+        <category id="204" parentId="200">
+            <title>Sauvignon Blanc</title>
+        </category>
+        <!-- end White Wines Category -->
+
+        <!-- start Sparkling & Rose Category -->
+        <category id="300">
+            <title>Sparkling &amp; Rose</title>
+        </category>
+        <!-- Subcategories of Sparkling & Rose -->
+        <category id="301" parentId="300">
+            <title>Champagne</title>
+        </category>
+        <category id="302" parentId="300">
+            <title>Prosecco</title>
+        </category>
+        <category id="303" parentId="300">
+            <title>Rose</title>
+        </category>
+        <!-- end Sparkling & Rose Category -->
+    </categories>
+
+    <slider>
+        <!-- Start of slider items -->
+
+        <product id="1" category="101" price="70" discount="65">
+            <date>30.10.2014</date>
+            <title> Meyer Cabernet Sauvignon Napa Valley </title>
+            <photos>
+                <photo>cab_meyer_vineyard</photo>
+                <photo>red_wine</photo>
+            </photos>
+            <description>Strikingly complex and detailed, with supple, harmonious blackberry, currant, anise, licorice and crushed rock flavors. Gains depth while holding focus and persistence.</description>
+            <color>red</color>
+            <condition>New</condition>
+        </product>
+
+        <product id="2" category="201" price="17" discount="15">
+            <date>30.10.2015</date>
+            <title>Kendall-Jackson Chardonnay California Vintner's Reserve </title>
+            <photos>
+                <photo>chard_kendall_jackson</photo>
+                <photo>white_wine</photo>
+            </photos>
+            <description>Plush, with loads of richness to the well-honed flavors of beeswax, baked pear and lemon tart. Minerally midpalate, with a fresh and zesty finish that finishes with pastry notes.</description>
+            <color>white</color>
+            <condition>New</condition>
+        </product>
+
+        <product id="3" category="203" price="35" discount="30">
+            <date>30.10.2015</date>
+            <title>Prager Riesling Federspiel Trocken Wachau Steinriegl </title>
+            <photos>
+                <photo>ries_praher</photo>
+                <photo>white_wine</photo>
+            </photos>
+            <description>A fruity style, boasting apricot, ripe apple, white pepper, mineral and floral notes, this is harmonious and fresh, leaving a sapid, mineral aftertaste.</description>
+            <color>yellow</color>
+            <condition>New</condition>
+        </product>
+
+        <product id="4" category="301" price="600" discount="20">
+            <date>30.10.2014</date>
+            <title>Louis Roederer Brut Champagne </title>
+            <photos>
+                <photo>champ_louisroederer</photo>
+                <photo>champagne</photo>
+            </photos>
+            <description>Refined in texture and beautifully balanced, this well-meshed version is framed by mouthwatering acidity, enlivened by flavors of yellow apple, pear, black currant, lightly toasted almond, kumquat and zesty ground spice.</description>
+            <color>transparent</color>
+            <condition>New</condition>
+        </product>
+
+        <product id="5" category="303" price="40" discount="35">
+            <date>30.10.2014</date>
+            <title>Domaine Tempier Bandol Rosé </title>
+            <photos>
+                <photo>rose_bandol</photo>
+                <photo>rose_wine</photo>
+            </photos>
+            <description>Bright and high-pitched, this features a talc note that gives way to rosemary and white cherry hints, while the finish races along with sea salt and blood orange details. Long, chiseled and pure. A delicious rosé that should unwind further with some cellaring</description>
+            <color>pink</color>
+            <condition>New</condition>
+        </product>
+
+        <!-- End of slider items -->
+    </slider>
+
+    <products>
+        <product id="6" category="103"  price="45" discount="35">
+            <date>01.10.2014</date>
+            <title>Syrah Walla Walla Valley Powerline Estate</title>
+            <photos>
+                <photo>syrah_k</photo>
+                <photo>red_wine</photo>
+            </photos>
+            <description>A knockout Syrah, precise and impeccably built but explosive with personality. Smoky roasted meat and floral blackberry aromas combine with bold, supple flavors of dark plum, pepper and licorice. The tannins are big but polished.</description>
+            <condition>New</condition>
+            <color>Red</color>
+        </product>
+
+        <product id="7" category="103"  price="29" discount="25">
+            <date>02.10.2014</date>
+            <title>Rust en Vrede Syrah Stellenbosch </title>
+            <photos>
+                <photo>syrah_rust_en_vrede</photo>
+                <photo>red_wine</photo>
+            </photos>
+            <description>This is well-rendered, with a core of bramble-edged boysenberry, blackberry and raspberry fruit laced with mouthwatering savory and anise notes. Shows judicious toast through the finish, as roasted apple wood details dance through, letting the fruit win out in the end.</description>
+            <condition>New</condition>
+            <color>Red</color>
+        </product>
+
+        <product id="8" category="103"  price="60" discount="55">
+            <date>02.10.2014</date>
+            <title>PlumpJack Syrah Napa Valley </title>
+            <photos>
+                <photo>syrah_plumpjack</photo>
+                <photo>red_wine</photo>
+            </photos>
+            <description>Polished and impeccably structured, with blackberry and smoky meat aromas and layered, rich flavors of licorice and espresso that linger toward big but firm tannins.</description>
+            <condition>New</condition>
+            <color>Red</color>
+        </product>
+
+        <product id="9" category="101"  price="70" discount="65">
+            <date>02.10.2014</date>
+            <title> Meyer Cabernet Sauvignon Napa Valley </title>
+            <photos>
+                <photo>cab_meyer_vineyard</photo>
+                <photo>red_wine</photo>
+            </photos>
+            <description>Strikingly complex and detailed, with supple, harmonious blackberry, currant, anise, licorice and crushed rock flavors. Gains depth while holding focus and persistence.</description>
+            <condition>New</condition>
+            <color>Red</color>
+        </product>
+
+        <product id="10" category="101"  price="15" discount="12">
+            <date>02.10.2014</date>
+            <title>Viña Santa Ema Cabernet Sauvignon Maipo Valley Reserva </title>
+            <photos>
+                <photo>cab_santa_ema</photo>
+                <photo>red_wine</photo>
+            </photos>
+            <description>Dark plum and dried red berry flavors dominate this muscular red, with plenty of minty and savory accents. Medium-grained tannins support chocolate and cream details on the finish.</description>
+            <condition>New</condition>
+            <color>Red</color>
+        </product>
+
+        <product id="11" category="101"  price="20" discount="18">
+            <date>03.10.2014</date>
+            <title> Penley Cabernet Sauvignon Coonawarra Phoenix </title>
+            <photos>
+                <photo>cab_penley</photo>
+                <photo>red_wine</photo>
+            </photos>
+            <description>Dense tannins and flavors are packed into this wine, with briny Kalamata olive and black licorice nuances to the core of plum, cassis, sage, tobacco and cedar flavors, which fan out on the finish. </description>
+            <condition>New</condition>
+            <color>Red</color>
+        </product>
+
+        <product id="12" category="102"  price="26" discount="22">
+            <date>03.10.2014</date>
+            <title>Colene Clemens Pinot Noir Chehalem Mountains Dopp Creek </title>
+            <photos>
+                <photo>pn_colene_clemens</photo>
+                <photo>red_wine</photo>
+            </photos>
+            <description>Firm and focused, with cinnamon notes floating around red berry and floral flavors, finishing with gentle persistence against lively acidity and fine tannins.</description>
+            <condition>New</condition>
+            <color>Red</color>
+        </product>
+
+        <product id="13" category="102"  price="20" discount="18">
+            <date>03.10.2014</date>
+            <title>Innocent Bystander Pinot Noir Yarra Valley </title>
+            <photos>
+                <photo>pn_innocent</photo>
+                <photo>red_wine</photo>
+            </photos>
+            <description>Plush and elegant, with raspberry, cherry and fresh sage notes that are harmonious, juicy and intense on the finish. </description>
+            <condition>New</condition>
+            <color>Red</color>
+        </product>
+
+        <product id="14" category="102"  price="50" discount="45">
+            <date>03.10.2014</date>
+            <title>Purple Hands Pinot Noir Dundee Hills Latchkey Vineyard </title>
+            <photos>
+                <photo>pn_purple_hands</photo>
+                <photo>red_wine</photo>
+            </photos>
+            <description>Silky and harmonious, with an elegantly precise structure and black cherry, fresh violet and spice notes that glide expressively toward the long finish.</description>
+            <condition>New</condition>
+            <color>Purple</color>
+        </product>
+
+        <product id="15" category="104"  price="25" discount="22">
+            <date>04.10.2014</date>
+            <title>•	Bedrock Zinfandel California Old Vine </title>
+            <photos>
+                <photo>zin_bedrock</photo>
+                <photo>red_wine</photo>
+            </photos>
+            <description>Rich and supple, this is an explosion of pure, decadent fruit. Floral huckleberry and Chinese five-spice powder aromas open to layered blackberry, dark chocolate and licorice flavors that linger.</description>
+            <condition>New</condition>
+            <color>Red</color>
+        </product>
+
+        <product id="16" category="104"  price="48" discount="45">
+            <date>04.10.2014</date>
+            <title>Turley Zinfandel Paso Robles Ueberroth Vineyard </title>
+            <photos>
+                <photo>zin_turley</photo>
+                <photo>red_wine</photo>
+            </photos>
+            <description>An impressive combo of refinement and torque. This features ripe, rich fruit backed by great minerality and structure, with notes of raspberry and blackberry plus licorice, sage and pepper.</description>
+            <condition>New</condition>
+            <color>Red</color>
+        </product>
+
+        <product id="17" category="104"  price="38" discount="35">
+            <date>04.10.2014</date>
+            <title>Hartford Family Zinfandel Russian River Valley Old Vine </title>
+            <photos>
+                <photo>zin_hartford</photo>
+                <photo>red_wine</photo>
+            </photos>
+            <description>This is what Russian River Zinfandel is all about. Rich, dynamic and layered, with complex fruit, offering notes of jammy black raspberry, stony mineral, herbes de Provence and licorice. The finish unfurls at length. 2015</description>
+            <condition>New</condition>
+            <color>Black</color>
+        </product>
+
+        <product id="18" category="201"  price="17" discount="15">
+            <date>04.10.2014</date>
+            <title>Kendall-Jackson Chardonnay California Vintner's Reserve </title>
+            <photos>
+                <photo>chard_kendall_jackson</photo>
+                <photo>white_wine</photo>
+            </photos>
+            <description>Plush, with loads of richness to the well-honed flavors of beeswax, baked pear and lemon tart. Minerally midpalate, with a fresh and zesty finish that finishes with pastry notes.</description>
+            <condition>New</condition>
+            <color>White</color>
+        </product>
+
+        <product id="19" category="201"  price="75" discount="70">
+            <date>05.10.2014</date>
+            <title>•	Pahlmeyer Chardonnay Napa Valley </title>
+            <photos>
+                <photo>chard_jayson_pahlmeyer</photo>
+                <photo>white_wine</photo>
+            </photos>
+            <description>This offers a gorgeous mouthful of rich, buttery Chardonnay, loaded with exotic tropical fruit, pear, melon and pineapple flavors. Impressive for its opulence and silkiness, a nice combination.</description>
+            <condition>New</condition>
+            <color>White</color>
+        </product>
+
+        <product id="20" category="201"  price="35" discount="30">
+            <date>05.10.2014</date>
+            <title>Sixto Chardonnay Washington Uncovered</title>
+            <photos>
+                <photo>chard_charles_smith</photo>
+                <photo>white_wine</photo>
+            </photos>
+            <description>Dynamic, yet sleek and refined, driven by a core of minerally acidity that meshes with the delicately complex apple, Meyer lemon and spicy yeast accents that linger long on the finish.</description>
+            <condition>New</condition>
+            <color>White</color>
+        </product>
+
+        <product id="21" category="204"  price="20" discount="15">
+            <date>05.10.2014</date>
+            <title>Sidebar Sauvignon Blanc High Valley </title>
+            <photos>
+                <photo>sb_sidebar</photo>
+                <photo>white_wine</photo>
+            </photos>
+            <description> Focused and precise, with detailed lemon meringue, orange blossom and lime zest flavors that are intense, fragrant and harmonious on the long, crisp finish.</description>
+            <condition>New</condition>
+            <color>White</color>
+        </product>
+
+        <product id="22" category="204"  price="12" discount="10">
+            <date>05.10.2014</date>
+            <title>Matua Sauvignon Blanc Marlborough </title>
+            <photos>
+                <photo>sb_matua</photo>
+                <photo>white_wine</photo>
+            </photos>
+            <description>Succulent, fleshy peach and nectarine flavors are accented by Key lime, mango and ruby grapefruit notes. Shows nice intensity on the long, expressive finish.</description>
+            <condition>New</condition>
+            <color>White</color>
+        </product>
+
+        <product id="23" category="204"  price="199" discount="20">
+            <date>06.10.2014</date>
+            <title>Mason Sauvignon Blanc Napa Valley Yount Mill Vineyard</title>
+            <photos>
+                <photo>sb_mason</photo>
+                <photo>white_wine</photo>
+            </photos>
+            <description>Clean, smooth and crisp, offering a lip-smacking mix of pear, melon and Key lime flavors, with plenty of intensity on the finish.</description>
+            <condition>New</condition>
+            <color>White</color>
+        </product>
+
+        <product id="24" category="202"  price="20" discount="16">
+            <date>06.10.2014</date>
+            <title>Torre Rosazza Pinot Grigio Friuli Colli Orientali </title>
+            <photos>
+                <photo>pg_torre_rosazza</photo>
+                <photo>white_wine</photo>
+            </photos>
+            <description>This creamy, medium-bodied version is framed by finely cut acidity that focuses the rich minerality and flavors of guava, star fruit, pickled ginger and oak spice. Lingering finish.</description>
+            <condition>New</condition>
+            <color>White</color>
+        </product>
+
+        <product id="25" category="301"  price="19" discount="16">
+            <date>06.10.2014</date>
+            <title>Attems Pinot Grigio Venezia-Giulia </title>
+            <photos>
+                <photo>pg_attems</photo>
+                <photo>white_wine</photo>
+            </photos>
+            <description>Offers pineapple pie, vanilla cream and honey on the nose. Full-bodied, with a very ripe, almost decadent tropical fruit character and lots of rich fruit.</description>
+            <condition>New</condition>
+            <color>White</color>
+        </product>
+
+        <product id="26" category="203"  price="35" discount="30">
+            <date>06.10.2014</date>
+            <title>Prager Riesling Federspiel Trocken Wachau Steinriegl </title>
+            <photos>
+                <photo>ries_praher</photo>
+                <photo>white_wine</photo>
+            </photos>
+            <description>A fruity style, boasting apricot, ripe apple, white pepper, mineral and floral notes, this is harmonious and fresh, leaving a sapid, mineral aftertaste.</description>
+            <condition>New</condition>
+            <color>Light-Yellow</color>
+        </product>
+
+        <product id="27" category="203"  price="20" discount="18">
+            <date>30.10.2014</date>
+            <title>Selbach-Oster Riesling Kabinett Halbtrocken Mosel Zeltinger Himmelreich </title>
+            <photos>
+                <photo>ries_selbach</photo>
+                <photo>white_wine</photo>
+            </photos>
+            <description>Pungent, with aromas of slate and ripe orchard fruit, this sleek white displays complex flavors of flowers, peach, quince and slate. A hint of chive works into the mix as this remains persistent on the finish.</description>
+            <condition>New</condition>
+            <color>White</color>
+        </product>
+
+        <product id="28" category="303"  price="92" discount="80">
+            <date>14.10.2014</date>
+            <title>Robert Weil Riesling Qualitätswein Trocken Rheingau Kiedricher Gräfenberg GG </title>
+            <photos>
+                <photo>ries_robertwiel</photo>
+                <photo>white_wine</photo>
+            </photos>
+            <description>Very rich and complex, with enveloping flavors of baked apple, ripe citrus, nectarine and dried pear supported by a powerful structure. Lush midpalate, with a notes of dried guava, followed by unctuous spiciness on the finish, with accents of white chocolate, chamomile and dried herbs.</description>
+            <condition>New</condition>
+            <color>Black</color>
+        </product>
+
+        <product id="29" category="301"  price="46" discount="43">
+            <date>30.10.2014</date>
+            <title>Bérêche &amp; Fils Brut Champagne Réserve </title>
+            <photos>
+                <photo>champ_bereche</photo>
+                <photo>champagne</photo>
+            </photos>
+            <description>Racy acidity firms up this rich Champagne, with a honeyed overtone to the well-spiced palate of grilled nut, poached pear, lemon parfait and ripe raspberry. Lacy in texture, with a smoke-tinged finish.</description>
+            <condition>New</condition>
+            <color>White</color>
+        </product>
+
+        <product id="30" category="301"  price="48" discount="45">
+            <date>30.10.2014</date>
+            <title>Pierre Paillard Brut Champagne  </title>
+            <photos>
+                <photo>champ_pierre_pailard</photo>
+                <photo>champagne</photo>
+            </photos>
+            <description>Shows lovely balance, with a satiny quality to the refined mousse and mouthwatering acidity meshing with pure notes of poached quince, lemon mousse, white cherry and fresh ginger. Offers a lightly chalky finish.</description>
+            <condition>New</condition>
+            <color>White</color>
+        </product>
+
+        <product id="31" category="301"  price="78" discount="75">
+            <date>30.10.2014</date>
+            <title>Louis Roederer Brut Champagne </title>
+            <photos>
+                <photo>champ_louisroederer</photo>
+                <photo>champagne</photo>
+            </photos>
+            <description> Refined in texture and beautifully balanced, this well-meshed version is framed by mouthwatering acidity, enlivened by flavors of yellow apple, pear, black currant, lightly toasted almond, kumquat and zesty ground spice. </description>
+            <condition>New</condition>
+            <color>White</color>
+        </product>
+
+        <product id="32" category="302"  price="33" discount="27">
+            <date>30.10.2014</date>
+            <title>Collalto Prosecco Di Conegliano Valdobbiadene Brut  </title>
+            <photos>
+                <photo>prosecco_collalto</photo>
+                <photo>champagne</photo>
+            </photos>
+            <description> Dry, light and racy with a touch of fruit sweetness on the mid-palate, persistent bubbles and a crisp, aromatic finish. Elegantly enjoyable on its own or with light fish and vegetable dishes. Beautifully balanced, this gets the Goldilocks rating for being just right. </description>
+            <condition>New</condition>
+            <color>White</color>
+        </product>
+
+        <product id="33" category="302"  price="30" discount="26">
+            <date>30.10.2014</date>
+            <title>La Gioiosa DOCG Prosecco Italy NV </title>
+            <photos>
+                <photo>prosecco_la_gioiosa</photo>
+                <photo>champagne</photo>
+            </photos>
+            <description>A great bottle to kick start any event, this is classic prosecco with honey and white flower aromas, boasting big, fresh flavours of nectarine, ripe pear and juicy apple. The sweetness is delicately balanced and stays on the right side of dry. Effortlessly delicious and a joy to drink.</description>
+            <condition>New</condition>
+            <color>White</color>
+        </product>
+
+        <product id="34" category="302"  price="17" discount="12">
+            <date>30.10.2014</date>
+            <title>Aldi Valdobbiadene Prosecco Spumante Superiore NV </title>
+            <photos>
+                <photo>prosecco_valdobbiadene</photo>
+                <photo>champagne</photo>
+            </photos>
+            <description>A firm favourite, judging by the reviews on Aldi’s website. Its DOCG Prosecco appears to be a go-to for festive parties and for less than £8 its appeal is obvious: light with enough personality to enjoy on its own (even if a tad heavy on the confected pear) but also the perfect mixer for bellinis, negroni sbagliato or a Venetian spritz with Aperol or Campari. Loads of options, just don’t get lumped with cocktail duty.</description>
+            <condition>New</condition>
+            <color>White</color>
+        </product>
+
+        <product id="35" category="303"  price="40" discount="35">
+            <date>30.10.2014</date>
+            <title>Domaine Tempier Bandol Rosé </title>
+            <photos>
+                <photo>rose_bandol</photo>
+                <photo>rose_wine</photo>
+            </photos>
+            <description> Bright and high-pitched, this features a talc note that gives way to rosemary and white cherry hints, while the finish races along with sea salt and blood orange details. Long, chiseled and pure. A delicious rosé that should unwind further with some cellaring. </description>
+            <condition>New</condition>
+            <color>White</color>
+        </product>
+
+        <product id="36" category="303"  price="28" discount="22">
+            <date>30.10.2014</date>
+            <title>Jolie-Pitt &amp; Perrin Côtes de Provence Rosé Miraval </title>
+            <photos>
+                <photo>rose_miraval</photo>
+                <photo>rose_wine</photo>
+            </photos>
+            <description>Refined and elegant, offering pure and concentrated flavors of dried red berry, tangerine and melon. The focused finish features flint and spice notes, with a hint of cream.</description>
+            <condition>New</condition>
+            <color>White</color>
+        </product>
+
+        <product id="37" category="303"  price="30" discount="26">
+            <date>30.10.2014</date>
+            <title>Domaines Bunan Bandol Rosé Moulin des Costes </title>
+            <photos>
+                <photo>rose_bunan</photo>
+                <photo>rose_wine</photo>
+            </photos>
+            <description>Offers a lovely combination of zip and richness, with creamy edges around a core of delicious white cherry and white peach flavors, all offset by a pure beam of minerality that pierces through from start to finish.</description>
+            <condition>New</condition>
+            <color>White</color>
+        </product>
+
+
+    </products>
+
+</catalog>

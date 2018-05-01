@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Acer\Documents\yonov senior project\app\catalogApp\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2fab2ed9e1cecd61e9d0fa71b2f331de42e67a84">
+        <dex dex="C:\Users\Acer\Documents\yonov senior project\app\catalogApp\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_25b3b24a7c4373a991e5e04657cd946e2948f6ba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Acer\Documents\yonov senior project\app\catalogApp\libs\universal-image-loader-1.8.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09995ba681982ca129af798c9eb21e79c4bffa45">
+        <dex dex="C:\Users\Acer\Documents\yonov senior project\app\catalogApp\build\intermediates\transforms\dex\debug\folders\1000\2\universal-image-loader-1.8.6_080d279bed443431c4bd985e19c7e45d1fd38313\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Acer\Documents\yonov senior project\app\catalogApp\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\Acer\Documents\yonov senior project\app\catalogApp\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_8b6cd2f152b0b6d6ca3732415edcbe2bf2ec2c79\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Acer\Documents\yonov senior project\app\floatingActionButtonEclipse\build\intermediates\bundles\default\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f086e018e187da53a1432c188023c86d1fa3ff73">
+        <dex dex="C:\Users\Acer\Documents\yonov senior project\app\catalogApp\build\intermediates\transforms\dex\debug\folders\1000\8\nineoldandroids-2.4.0_2b7af1863b9592a82c62fa11180b785f6e65335d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Acer\Documents\yonov senior project\app\catalogApp\libs\simple-xml-2.7.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="083623424bcfa03bd598e709765bad0816c2375d">
+        <dex dex="C:\Users\Acer\Documents\yonov senior project\app\catalogApp\build\intermediates\transforms\dex\debug\folders\1000\2\simple-xml-2.7.1_8a0ff03c3415e8a1c93168fc544ef4735eaa7608\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Acer\Documents\yonov senior project\app\floatingActionButtonEclipse\build\intermediates\bundles\default\libs\android-support-v7-recyclerview.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d47fa206ffbe921a73201ffbfbc368708a7a9f39">
+        <dex dex="C:\Users\Acer\Documents\yonov senior project\app\catalogApp\build\intermediates\transforms\dex\debug\folders\1000\8\android-support-v7-recyclerview_69b9f532968bb4a9bde40e645218cadabc3967de\classes.dex" />
+    </item>
+
+</items>
